@@ -19,6 +19,17 @@ public class AppResourceBean {
     private Long currentAbtestDataId;
     private ABTestData currentTestData;
 
+    public AppResourceBean(AppResource appResource) {
+        this.id = appResource.getResourceId();
+        this.appId = appResource.getAppId();
+        this.url = appResource.getFileURL();
+        this.ABTestActive = appResource.isABTestActive();
+    }
+
+    public AppResourceBean() {
+
+    }
+
     public void setCurrentTestData(ABTestData currentTestData) {
         this.currentTestData = currentTestData;
         this.currentAbtestDataId = currentTestData.getId();

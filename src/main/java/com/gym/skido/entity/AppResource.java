@@ -1,6 +1,7 @@
 package com.gym.skido.entity;
 
 
+import com.gym.skido.appbeans.AppResourceBean;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;

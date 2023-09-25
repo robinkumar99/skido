@@ -18,6 +18,4 @@ public class ABTestDataBean {
     private ABTestUser abTestUser;
     private Integer sampleGroupType;
     private boolean converted;
-
-
 }

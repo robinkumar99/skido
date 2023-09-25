@@ -1,11 +1,10 @@
 package com.gym.skido.entity;
 
+import jakarta.validation.constraints.NotNull;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
-import javax.validation.constraints.Size;
 
 @Getter
 @Setter
@@ -50,7 +49,6 @@ public class ABTestReport {
     @Column(name = "significance")
     private Double significance;
 
-    @Size(max = 255)
     @Column(name = "winner")
     private String winner;
 
