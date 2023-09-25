@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.gym.skido"},{"l":"com.gym.skido.api"},{"l":"com.gym.skido.appbeans"},{"l":"com.gym.skido.context"},{"l":"com.gym.skido.controller"},{"l":"com.gym.skido.entity"}];updateSearchResults();
